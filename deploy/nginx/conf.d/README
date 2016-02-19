@@ -1,0 +1,6 @@
+The conf.d folder is used to automate dynamically scale the the architecture.
+
+When add a new server for nginx, put a config file in this directory using following pattern:
+server {server IP}:{port}
+
+After updating the config file, nginx server should reloaded to apply new configuration
